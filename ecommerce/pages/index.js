@@ -4,7 +4,7 @@ import { FooterBanner, HeroBanner } from '../components';
 import { client } from '../lib/client';
 
 function Home({ products, bannerDate }) {
-  console.log(products);
+  
   return (
     <>
       <HeroBanner />
