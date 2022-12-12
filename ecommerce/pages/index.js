@@ -17,7 +17,7 @@ function Home({ products, bannerDate }) {
         )}
       </div>
 
-      <FooterBanner />
+      <FooterBanner footerBanner = {bannerDate && bannerDate[0]} />
     </>
   );
 }
